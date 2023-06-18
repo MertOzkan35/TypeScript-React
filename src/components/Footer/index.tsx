@@ -33,62 +33,7 @@ const Footer = () => {
         <span className="text-sm text-gray-500 text-center dark:text-gray-400">
           © 2022 Bentilzone™. All Rights Reserved.
         </span>
-        <div className="flex mt-4 space-x-6 sm:justify-center sm:mt-0 md:text-xl">
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://qbentil.com"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsDribbble />
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://github.com/qbentil"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsGithub />
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://linkedin.com/in/bentil"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsLinkedin />
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://twitter.com/themanbentil"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsTwitter />
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://instagram.com/qbentil"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsInstagram />
-          </motion.a>
-          <motion.a
-            whileTap={{ scale: 1.1 }}
-            target={"_blank"}
-            rel="noreferrer"
-            href="https://facebook.com/qbentil"
-            className="text-textColor h-10 w-10 bg-primary rounded-full flex items-center justify-center"
-          >
-            <BsFacebook />
-          </motion.a>
-        </div>
+       
       </div>
     </footer>
   );
